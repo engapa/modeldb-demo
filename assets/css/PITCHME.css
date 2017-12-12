@@ -1,8 +1,6 @@
-body {
-    font: 16px Lato, 'sans-serif' !important;
-    color: aqua;
-}
-
 .step-title {
+    color: #06467f;
+}
+.step {
     color: #06467f;
 }
