@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo:3.6
+    networks:
+      default:
+        aliases:
+          - mongo
+    ports:
+      - "27017:27017"
+  backend:
+    image: engapa/modeldb-backend:latest
+    networks:
+      default:
+        aliases:
+          - backend
+    ports:
+      - "6543:6543"
+    command: ["mongo"]
+  frontend:
+    environment:
+    - MDB_BACKEND_HOST=backend
+    image: engapa/modeldb-frontend:latest
+    networks:
+      default:
+        aliases:
+          - frontend
+    ports:
+      - "3000:3000"
