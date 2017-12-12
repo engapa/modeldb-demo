@@ -51,22 +51,22 @@ $ pip list --format legacy | grep modeldb
 @[13,15-17,19-21](Partial sync of a couple of models with different configurations)
 @[23-26](Partial sync of metrics for both models)
 @[28](Effective transmission of all model data)
-<br/>
-<span>Execute by typing: `$ python BasicSync.py`</span>
-<br>
+@[29](Execute "python BasicSync.py")
 
 ---?code=python/BasicSyncAll.py&lang=python&title=#5. Send model data from file
 @[1](Import client dependencies)
 @[4-7](Create a new project, if it doesn't exist yet)
 @[10](Sync all information from file - see YamlExperimentMetrics.yaml)
 @[12](Effective transmission of all model data)
-<br/>
-<span>Execute by typing: `$ python BasicSyncAll.py`</span>
-<br>
+@[13](Execute "python BasicSyncAll.py")
 
 ---
 @title[6. Using scikit-learn client]
 
+- Install modeldb package instead of modeldb-basic
+- FitEvents and MetricEvents objects store dataset and metric changes
+- _sync methods overrides native scikit-learn methods
+- Samples are available at [upstream project @fa[external-link]](https://github.com/mitdbg/modeldb/tree/master/client/python/samples/sklearn)
 
 ---
 ## Thanks everyone !!
