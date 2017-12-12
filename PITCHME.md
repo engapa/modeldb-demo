@@ -10,9 +10,9 @@ $ docker-compose up
 Done!
 ```
 
-<span class="step">
+
 @[1](Check docker-compose is installed on your local machine or VM)
 @[2](Launch docker-compose commant to run modeldb components)
 @[4](Everything goes well ...)
-</span>
+
 ---
