@@ -2,7 +2,7 @@
 ---
 @title[1. Launch docker-compose]
 
-### <span class="step-title">#1. Docker compose</span>
+### <span class="step-title">1. Docker compose</span>
 <br>
 
 ```shell
@@ -23,14 +23,14 @@ Done!
 ---
 @title[2. Check frontend]
 
-### <span class="step-title">#2. Check frontend is running</span>
+### <span class="step-title">2. Check frontend is running</span>
 <br>
 
 [http://localhost:3000 @fa[external-link]](http://localhost:3000)
 ---
 @title[3. Install python basic client ]
 
-### <span class="step-title">#3. Install python basic client</span>
+### <span class="step-title">3. Install python basic client</span>
 <br>
 
 ```shell
@@ -43,7 +43,7 @@ $ pip list --format legacy | grep modeldb
 @[1-2](Run a python 3.6 container)
 @[3](Install modeldb basic client)
 @[4](Ensure modeldb basic client was installed successfully)
----?code=python/BasicSync.py&lang=python&title=#4. Send model data
+---?code=python/BasicSync.py&lang=python&title=4. Send model data
 
 @[1-3](Import client classes)
 @[5](Create a main object to transfer model information - see syncer.json file)
@@ -53,7 +53,7 @@ $ pip list --format legacy | grep modeldb
 @[28](Effective transmission of all model data)
 @[29](Execute "python BasicSync.py")
 
----?code=python/BasicSyncAll.py&lang=python&title=#5. Send model data from file
+---?code=python/BasicSyncAll.py&lang=python&title=5. Send model data from file
 @[1](Import client dependencies)
 @[4-7](Create a new project, if it doesn't exist yet)
 @[10](Sync all information from file - see YamlExperimentMetrics.yaml)
@@ -62,11 +62,13 @@ $ pip list --format legacy | grep modeldb
 
 ---
 @title[6. Using scikit-learn client]
-
+### <span class="step-title">6. Using scikit-learn client</span>
+<br>
 - <span class="blue">Install modeldb package instead of modeldb-basic</span>
 - <span class="blue">Event objects enable us to track data sets and metric changes</span>
 - <span class="blue">"_sync" methods overrides native scikit-learn methods</span>
 - <span class="blue">Samples are available at [upstream project @fa[external-link]](https://github.com/mitdbg/modeldb/tree/master/client/python/samples/sklearn)</span>
 
 ---
+@title[7. Bye bye]
 ## Thanks everyone !!
