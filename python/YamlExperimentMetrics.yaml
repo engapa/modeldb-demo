@@ -1,0 +1,38 @@
+DATASETS:
+    - FILENAME: /path/to/train_dataset_file.csv
+      METADATA:
+        num_cols: 123
+      TAG: train
+    - FILENAME: /path/to/test_dataset_file.csv
+      METADATA:
+        num_cols: 123
+      TAG: test
+
+MODEL:
+    # expected kv pairs
+    NAME: Demo Model
+    TYPE: NN
+    PATH: https://github.com/engapa/ai-models/1.2-NN-python.py
+    TAG: train
+    EXTRA-METADATA-FIELD: "extra model metadata"
+    NOTES:
+      owner": "engapa"
+      description": "Testing logistic regressions"
+    CONFIG:
+        l1: 3
+    METRICS:
+        - TYPE: accuracy
+          VALUE: 0.4
+        - TYPE: recall
+          VALUE: 0.4
+#        - TYPE: _cm_tp
+#          VALUE: 132
+#        - TYPE: _cm_fp
+#          VALUE: 5460
+#        - TYPE: _cm_fn
+#          VALUE: 4500
+#        - TYPE: _cm_tn
+#          VALUE: 34
+    # extra kv pairs
+    owner: engapa
+    date-created: 2017-12-12
