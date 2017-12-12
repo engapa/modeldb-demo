@@ -63,10 +63,10 @@ $ pip list --format legacy | grep modeldb
 ---
 @title[6. Using scikit-learn client]
 
-- Install modeldb package instead of modeldb-basic
-- Event objects enable us to track data sets and metric changes
-- "_sync" methods overrides native scikit-learn methods
-- Samples are available at [upstream project @fa[external-link]](https://github.com/mitdbg/modeldb/tree/master/client/python/samples/sklearn)
+- <span class="blue">Install modeldb package instead of modeldb-basic</span>
+- <span class="blue">Event objects enable us to track data sets and metric changes</span>
+- <span class="blue">"_sync" methods overrides native scikit-learn methods</span>
+- <span class="blue">Samples are available at [upstream project @fa[external-link]](https://github.com/mitdbg/modeldb/tree/master/client/python/samples/sklearn)</span>
 
 ---
 ## Thanks everyone !!
