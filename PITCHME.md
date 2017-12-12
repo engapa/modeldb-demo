@@ -1,6 +1,4 @@
-##
-# ModelDB Presentation
-##
+## ModelDB Demo
 ---
 @title[1. Launch docker-compose]
 
@@ -25,5 +23,6 @@ Done!
 ### <span class="step-title">#2. Check frontend is running</span>
 <br>
 
-[http://localhost:3000 @fa[external-link]](http://localhost:3000)
+<a href="http://localhost:3000" target="_blank"http://localhost:3000</a>
+
 
