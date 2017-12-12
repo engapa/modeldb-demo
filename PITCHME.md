@@ -1,6 +1,6 @@
 @title[Step 1. Launch a docker-compose]
 
-### <span class="title">STEP 1. Docker compose</span>
+### <span class="step-title">STEP 1. Docker compose</span>
 <br>
 
 ```shell
