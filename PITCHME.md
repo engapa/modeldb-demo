@@ -23,6 +23,6 @@ Done!
 ### <span class="step-title">#2. Check frontend is running</span>
 <br>
 
-<a href="http://localhost:3000" target="_blank"http://localhost:3000</a>
+<a href="http://localhost:3000" target="_blank">http://localhost:3000</a>
 
 
