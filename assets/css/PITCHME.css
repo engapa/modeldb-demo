@@ -4,3 +4,23 @@
 .step {
     color: #06467f;
 }
+
+.reveal p span.slide-title {
+  color: #06467f;
+  font-size: 1.55em;
+  margin: 0 0 60px 0;
+  font-family: "Montserrat", Impact, sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word;
+  display: block;
+}
+
+.reveal code.lang-shell code.hljs {
+    background: #201634;
+    padding: 0.5em;
+    color: #8ecd92;
+}
