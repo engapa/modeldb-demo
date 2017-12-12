@@ -38,11 +38,28 @@ $ pip install modeldb-basic
 $ pip list --format legacy | grep modeldb
 ```
 
-@[1](Run a python 3.6 container)
+@[1-2](Run a python 3.6 container)
 @[3](Install modeldb basic client)
 @[4](Ensure modeldb basic client was installed successfully)
----?code=python/BasicSync.py&lang=python&title=4. Send model data
+---?code=python/BasicSync.py&lang=python&title=#4. Send model data
 
-@[1](Proba proba)
+@[1-2,4](Import client classes)
+@[6](Create a main object to transfer model information - see syncer.json file)
+@[8-12](Partial sync of data sets)
+@[14,16-18,20,22](Partial sync of a couple of models with different configurations)
+@[24-27](Partial sync of metrics for both models)
+@[29](Effective transmission of all model data)
+
+```shell
+$ python BasicSync.py
+```
 
 ---?code=python/BasicSyncAll.py&lang=python&title=5. Send model data from file
+@[1](Import client dependencies)
+@[4-7](Create a new project, if it doesn't exist yet)
+@[10](Sync all information from file - see YamlExperimentMetrics.yaml)
+@[12](Effective transmission of all model data)
+
+```shell
+$ python BasicSyncAll.py
+```

@@ -25,14 +25,14 @@ MODEL:
           VALUE: 0.4
         - TYPE: recall
           VALUE: 0.4
-#        - TYPE: _cm_tp
-#          VALUE: 132
-#        - TYPE: _cm_fp
-#          VALUE: 5460
-#        - TYPE: _cm_fn
-#          VALUE: 4500
-#        - TYPE: _cm_tn
-#          VALUE: 34
+        - TYPE: _cm_tp
+          VALUE: 132
+        - TYPE: _cm_fp
+          VALUE: 5460
+        - TYPE: _cm_fn
+          VALUE: 4500
+        - TYPE: _cm_tn
+          VALUE: 34
     # extra kv pairs
     owner: engapa
     date-created: 2017-12-12
