@@ -19,7 +19,7 @@
   display: block;
 }
 
-.reveal code.lang-shell code.hljs {
+.reveal .lang-shell .hljs {
     background: #201634;
     padding: 0.5em;
     color: #8ecd92;
