@@ -37,7 +37,7 @@ Done!
 $ docker run -it -v $(pwd)/python:/modeldb-python \
   --network host python:3.6 bash
 $ pip install modeldb-basic
-$ pip list --format legacy | grep modeldb
+$ pip show modeldb-basic
 ```
 
 @[1-2](Run a python 3.6 container)
