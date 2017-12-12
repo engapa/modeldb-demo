@@ -19,7 +19,9 @@
   display: block;
 }
 
-.reveal .lang-shell .hljs {
+.hljs {
+    display: block;
+    overflow-x: auto;
     background: #201634;
     padding: 0.5em;
     color: #8ecd92;
