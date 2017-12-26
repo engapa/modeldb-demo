@@ -10,9 +10,9 @@ DATASETS:
 
 MODEL:
     # expected kv pairs
-    NAME: Demo Model
-    TYPE: NN
-    PATH: https://github.com/engapa/ai-models/1.2-NN-python.py
+    NAME: Demo Model2
+    TYPE: LR
+    PATH: https://github.com/engapa/ai-models/1.2-LR-python.py
     TAG: train
     EXTRA-METADATA-FIELD: "extra model metadata"
     NOTES:
@@ -22,17 +22,33 @@ MODEL:
         l1: 3
     METRICS:
         - TYPE: accuracy
-          VALUE: 0.4
+          VALUE: 0.1
         - TYPE: recall
-          VALUE: 0.4
+          VALUE: 0.3
+        # Confusion matrix metrics
         - TYPE: _cm_tp
           VALUE: 132
         - TYPE: _cm_fp
-          VALUE: 5460
+          VALUE: 5461
         - TYPE: _cm_fn
-          VALUE: 4500
+          VALUE: 4504
         - TYPE: _cm_tn
-          VALUE: 34
+          VALUE: 342
+        # Compute consumption metrics
+        - TYPE: _cmm_time
+          VALUE: 3456.45
+        - TYPE: _cmm_cpu_max
+          VALUE: 0.45
+        - TYPE: _cmm_cpu_avg
+          VALUE: 0.37
+        - TYPE: _cmm_cpu_min
+          VALUE: 0.32
+        - TYPE: _cmm_mem_max
+          VALUE: 1038
+        - TYPE: _cmm_mem_avg
+          VALUE: 524
+        - TYPE: _cmm_mem_min
+          VALUE: 520
     # extra kv pairs
     owner: engapa
     date-created: 2017-12-12
