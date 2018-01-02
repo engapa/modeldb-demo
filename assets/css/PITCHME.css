@@ -29,3 +29,11 @@
     padding: 0.5em;
     color: #8ecd92;
 }
+
+.img-slide {
+    width: 70%;
+    height: 70%;
+    align: center;
+    vertical-align: middle;
+    horizontal-align: middle;
+}

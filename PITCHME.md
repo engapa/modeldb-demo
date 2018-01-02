@@ -63,39 +63,39 @@ $ pip show modeldb-basic
 ---
 @title[5.1 Confusion Matrix]
 #### <span class="step-title">5.1 Confusion Matrix</span>
-<img src="assets/images/cm1.png"/>
+<img src="assets/images/cm1.png" class="img-slide"/>
 
 ---
 @title[5.1 Confusion Matrix]
 #### <span class="step-title">5.1 Confusion Matrix</span>
-<img src="assets/images/cm2.png"/>
+<img src="assets/images/cm2.png" class="img-slide"/>
 
 ---
 @title[5.1 Confusion Matrix]
 #### <span class="step-title">5.1 Confusion Matrix</span>
-<img src="assets/images/cm.png"/>
+<img src="assets/images/cm.png" class="img-slide"/>
 
 ---
 @title[5.2 Compute resource consumption]
 #### <span class="step-title">5.2 Compute resource consumption</span>
-<img src="assets/images/cm1.png"/>
+<img src="assets/images/cm1.png" class="img-slide"/>
 
 ---
 @title[5.2 Compute resource consumption]
 #### <span class="step-title">5.2 Compute resource consumption</span>
 
-<img src="assets/images/cmm2.png"/>
+<img src="assets/images/cmm2.png" class="img-slide"/>
 
 ---
 @title[5.2 CPU consumptions]
 #### <span class="step-title">5.2 CPU consumptions</span>
-<img src="assets/images/cmm_cpu.png"/>
+<img src="assets/images/cmm_cpu.png" class="img-slide"/>
 
 ---
 @title[5.2 Memory consumptions]
 #### <span class="step-title">5.2 Memory consumptions</span>
 <br>
-<img src="assets/images/cmm_mem.png"/>
+<img src="assets/images/cmm_mem.png" class="img-slide"/>
 
 ---
 @title[6. Using scikit-learn client]
@@ -108,4 +108,4 @@ $ pip show modeldb-basic
 
 ---
 @title[7. Bye bye]
-## Thanks everyone !!
+## <span style="background: #f3d7ac">Thanks everyone !!</span>
