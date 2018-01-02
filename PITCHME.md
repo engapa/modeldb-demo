@@ -60,6 +60,15 @@ $ pip show modeldb-basic
 @[12](Effective transmission of all model data)
 @[13](Execute "python BasicSyncAll.py")
 
+---?image=assets/images/cm1.png&size=auto 90%&title=5.1. Confusion Matrix
+---?image=assets/images/cm2.png&size=auto 90%&title=5.1. Confusion Matrix
+---?image=assets/images/cm.png&size=auto 90%&title=5.1. Confusion Matrix
+
+---?image=assets/images/cmm1.png&size=auto 90%&title=5.2. Compute resource consumption
+---?image=assets/images/cmm2.png&size=auto 90%&title=5.2. Compute resource consumption
+---?image=assets/images/cmm_cpu.png&size=auto 90%&title=5.2. CPU consumptions
+---?image=assets/images/cmm_mem.png&size=auto 90%&title=5.2. Memory consumptions
+
 ---
 @title[6. Using scikit-learn client]
 ### <span class="step-title">6. Using scikit-learn client</span>
