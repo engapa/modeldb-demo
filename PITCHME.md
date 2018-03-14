@@ -105,7 +105,13 @@ $ pip show modeldb-basic
 - <span class="blue">Event objects enable us to track data sets and metric changes</span>
 - <span class="blue">"_sync" methods overrides native scikit-learn methods</span>
 - <span class="blue">Samples are available at [upstream project @fa[external-link]](https://github.com/mitdbg/modeldb/tree/master/client/python/samples/sklearn)</span>
-
 ---
-@title[7. Bye bye]
+@title[7. Check frontend]
+
+### <span class="step-title">7. More examples (scikit-learn native)</span>
+<br>
+
+[http://modeldb.csail.mit.edu:3000 @fa[external-link]](http://modeldb.csail.mit.edu:3000)
+---
+@title[8. Bye bye]
 ## <span style="background: #f3d7ac">Thanks everyone !!</span>
