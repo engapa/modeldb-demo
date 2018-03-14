@@ -108,7 +108,7 @@ $ pip show modeldb-basic
 ---
 @title[7. Check frontend]
 
-### <span class="step-title">7. More examples (scikit-learn native)</span>
+### <span class="step-title">7. More examples <br/>scikit-learn native</span>
 <br>
 
 [http://modeldb.csail.mit.edu:3000 @fa[external-link]](http://modeldb.csail.mit.edu:3000)
