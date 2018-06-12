@@ -78,7 +78,7 @@ $ pip show modeldb-basic
 ---
 @title[5.2 Compute resource consumption]
 #### <span class="step-title">5.2 Compute resource consumption</span>
-<img src="assets/images/cm1.png" class="img-slide"/>
+<img src="assets/images/cmm1.png" class="img-slide"/>
 
 ---
 @title[5.2 Compute resource consumption]
