@@ -106,7 +106,7 @@ $ pip show modeldb-basic
 - <span class="blue">"_sync" methods overrides native scikit-learn methods</span>
 - <span class="blue">Samples are available at [upstream project @fa[external-link]](https://github.com/mitdbg/modeldb/tree/master/client/python/samples/sklearn)</span>
 ---
-@title[7. Check frontend]
+@title[7. Upstream examples]
 
 ### <span class="step-title">7. More examples <br/>scikit-learn native</span>
 <br>
